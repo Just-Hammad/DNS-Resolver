@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "java",
+        "name": "Debug (Launch)",
+        "request": "launch",
+        "mainClass": "your.main.Class",  // Replace with your main class
+        "classPaths": [
+          "libs/**/*.jar",
+          "bin"
+        ]
+      }
+    ]
+  }
+  
